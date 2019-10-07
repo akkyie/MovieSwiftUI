@@ -1,0 +1,100 @@
+{
+  "additionalFilePaths" : [
+    "MovieSwift/BUILD"
+  ],
+  "buildTargets" : [
+    "//MovieSwift:MovieSwift",
+    "//MovieSwift:MovieSwiftLib"
+  ],
+  "optionSet" : {
+    "BazelBuildOptionsDebug" : {
+      "p" : "$(inherited)"
+    },
+    "BazelBuildOptionsRelease" : {
+      "p" : "$(inherited)"
+    },
+    "BazelBuildStartupOptionsDebug" : {
+      "p" : "$(inherited)"
+    },
+    "BazelBuildStartupOptionsRelease" : {
+      "p" : "$(inherited)"
+    },
+    "BuildActionPostActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "BuildActionPreActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "CommandlineArguments" : {
+      "p" : "$(inherited)"
+    },
+    "EnvironmentVariables" : {
+      "p" : "$(inherited)"
+    },
+    "LaunchActionPostActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "LaunchActionPreActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "ProjectGenerationBazelStartupOptions" : {
+      "p" : "$(inherited)"
+    },
+    "TestActionPostActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "TestActionPreActionScript" : {
+      "p" : "$(inherited)"
+    }
+  },
+  "projectName" : "MovieSwift",
+  "sourceFilters" : [
+    "MovieSwift",
+    "MovieSwift/MovieSwift",
+    "MovieSwift/MovieSwift/binding",
+    "MovieSwift/MovieSwift/extensions",
+    "MovieSwift/MovieSwift/flux",
+    "MovieSwift/MovieSwift/flux/actions",
+    "MovieSwift/MovieSwift/flux/middlewares",
+    "MovieSwift/MovieSwift/flux/models",
+    "MovieSwift/MovieSwift/flux/reducers",
+    "MovieSwift/MovieSwift/flux/state",
+    "MovieSwift/MovieSwift/launch",
+    "MovieSwift/MovieSwift/preferences",
+    "MovieSwift/MovieSwift/services",
+    "MovieSwift/MovieSwift/views",
+    "MovieSwift/MovieSwift/views/components",
+    "MovieSwift/MovieSwift/views/components/bottomMenu",
+    "MovieSwift/MovieSwift/views/components/custom list",
+    "MovieSwift/MovieSwift/views/components/custom list/rows",
+    "MovieSwift/MovieSwift/views/components/discover",
+    "MovieSwift/MovieSwift/views/components/fan club",
+    "MovieSwift/MovieSwift/views/components/genres",
+    "MovieSwift/MovieSwift/views/components/home",
+    "MovieSwift/MovieSwift/views/components/home/outline",
+    "MovieSwift/MovieSwift/views/components/movieDetail",
+    "MovieSwift/MovieSwift/views/components/movieDetail/backdrop",
+    "MovieSwift/MovieSwift/views/components/movieDetail/reviews",
+    "MovieSwift/MovieSwift/views/components/movieDetail/rows",
+    "MovieSwift/MovieSwift/views/components/moviesHome",
+    "MovieSwift/MovieSwift/views/components/moviesHome/models",
+    "MovieSwift/MovieSwift/views/components/moviesList",
+    "MovieSwift/MovieSwift/views/components/moviesList/base",
+    "MovieSwift/MovieSwift/views/components/moviesList/rows",
+    "MovieSwift/MovieSwift/views/components/myLists",
+    "MovieSwift/MovieSwift/views/components/peopleDetail",
+    "MovieSwift/MovieSwift/views/components/peopleDetail/rows",
+    "MovieSwift/MovieSwift/views/components/settings",
+    "MovieSwift/MovieSwift/views/extensions",
+    "MovieSwift/MovieSwift/views/modifiers",
+    "MovieSwift/MovieSwift/views/shared",
+    "MovieSwift/MovieSwift/views/shared/badges",
+    "MovieSwift/MovieSwift/views/shared/buttons",
+    "MovieSwift/MovieSwift/views/shared/contextMenu",
+    "MovieSwift/MovieSwift/views/shared/field",
+    "MovieSwift/MovieSwift/views/shared/images",
+    "MovieSwift/MovieSwift/views/shared/preferencesKey",
+    "MovieSwift/MovieSwift/views/shared/scollableSelector",
+    "MovieSwift/MovieSwift/wrappers"
+  ]
+}
