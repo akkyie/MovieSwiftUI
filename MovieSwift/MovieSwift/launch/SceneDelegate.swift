@@ -22,28 +22,14 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             #if targetEnvironment(macCatalyst)
             windowScene.titlebar?.titleVisibility = .hidden
             #endif
-            
-            //TODO: Move that to SwiftUI once implemented
-            UINavigationBar.appearance().largeTitleTextAttributes = [
-                NSAttributedString.Key.foregroundColor: UIColor(named: "steam_gold")!,
-                NSAttributedString.Key.font: UIFont(name: "FjallaOne-Regular", size: 40)!]
-            
-            UINavigationBar.appearance().titleTextAttributes = [
-                NSAttributedString.Key.foregroundColor: UIColor(named: "steam_gold")!,
-                NSAttributedString.Key.font: UIFont(name: "FjallaOne-Regular", size: 18)!]
-            
-            UIBarButtonItem.appearance().setTitleTextAttributes([
-                NSAttributedString.Key.foregroundColor: UIColor(named: "steam_gold")!,
-                NSAttributedString.Key.font: UIFont(name: "FjallaOne-Regular", size: 16)!],
-                                                                for: .normal)
-            
+
             let controller = UIHostingController(rootView:
                 StoreProvider(store: store) {
                     HomeView()
             })
             
             window.rootViewController = controller
-            window.tintColor = UIColor(named: "steam_gold")
+            window.tintColor = UIColor.systemOrange
             self.window = window
             window.makeKeyAndVisible()
             

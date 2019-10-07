@@ -11,47 +11,47 @@ import SwiftUI
 
 extension Color {
     public static var steam_white: Color {
-        Color("steam_white", bundle: nil)
+        Color(.white)
     }
     
     public static var steam_gold: Color {
-        Color("steam_gold", bundle: nil)
+        Color(.systemOrange)
     }
     
     public static var steam_rust: Color {
-        Color("steam_rust", bundle: nil)
+        Color(.systemRed)
     }
     
     public static var steam_rust2: Color {
-        Color("steam_rust2", bundle: nil)
+        Color(.red)
     }
     
     public static var steam_bronze: Color {
-        Color("steam_bronze", bundle: nil)
+        Color(.systemPink)
     }
     
     public static var steam_brown: Color {
-        Color("steam_brown", bundle: nil)
+        Color(.systemPurple)
     }
     
     public static var steam_yellow: Color {
-        Color("steam_yellow", bundle: nil)
+        Color(.systemYellow)
     }
     
     public static var steam_blue: Color {
-        Color("steam_blue", bundle: nil)
+        Color(.systemBlue)
     }
     
     public static var steam_bordeaux: Color {
-        Color("steam_bordeaux", bundle: nil)
+        Color(.systemIndigo)
     }
     
     public static var steam_green: Color {
-        Color("steam_green", bundle: nil)
+        Color(.systemGreen)
     }
     
     public static var steam_background: Color {
-        Color("steam_background", bundle: nil)
+        Color(.systemBackground)
     }
 }
 
