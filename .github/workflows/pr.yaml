@@ -14,5 +14,13 @@ jobs:
       - name: Install Bazel
         run: brew install bazel
 
+      - name: Download key
+        run: echo $GCS_SERVICE_ACCOUNT_KEY | base64 -D > service-account-key.json
+        env:
+          GCS_SERVICE_ACCOUNT_KEY: ${{ secrets.GCS_SERVICE_ACCOUNT_KEY }}
+
       - name: Build with Bazel
-        run: bazel build //MovieSwift:MovieSwift
+        run: >
+          bazel build //MovieSwift:MovieSwift
+          --remote_http_cache=https://storage.googleapis.com/bazel-movieswiftui-sandbox
+          --google_credentials=service-account-key.json
